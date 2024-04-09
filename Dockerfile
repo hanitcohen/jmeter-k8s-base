@@ -1,4 +1,4 @@
-FROM openjdk:16-slim
+FROM openjdk:21-slim
 		
 ARG JMETER_VERSION
 ARG JMETER_INSTALLATION_PATH="/opt/jmeter/apache-jmeter-${JMETER_VERSION}" 
